@@ -129,12 +129,20 @@ h4 {
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
+.section-header p {
+  font-size: 34px;
+  line-height: 1.2em;
+  font-family: Neucha, cursive;
+}
+
 .section-hr {
   margin-top: 100px;
   margin-bottom: 20px;
   padding: 5px 10px;
 
   color: var(--white);
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
 
   background-color: var(--brown);
