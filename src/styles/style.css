@@ -26,6 +26,7 @@ h2,
 h3 {
   margin-top: 0;
 
+  font-weight: normal;
   font-family: Neucha, cursive;
   line-height: 1.2em;
 }
@@ -117,7 +118,7 @@ h3 {
   padding: 12px 24px;
 
   color: var(--white);
-  font-weight: 700;
+  font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -149,4 +150,59 @@ h3 {
   transform: translateX(-50%);
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.navigation {
+  padding-top: 200px;
+  padding-bottom: 80px;
+
+  background-color: var(--dark);
+
+  color: var(--white);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.flex-item > *:first-child {
+  margin-top: 0;
+}
+
+.flex-item > *:last-child {
+  margin-bottom: 0;
+}
+
+.navigation h2 {
+  font-size: 52px;
+}
+
+.navigation h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navigation-link {
+  box-sizing: border-box;
+  padding: 24px;
+
+  background-color: var(--white);
+
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.navigation-number {
+  margin-bottom: 40px;
+
+  font-size: 64px;
+  font-family: Neucha, cursive;
+  line-height: 1em;
 }
