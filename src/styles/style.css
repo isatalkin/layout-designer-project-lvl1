@@ -110,10 +110,10 @@ h4 {
   margin-bottom: 20px;
   padding: 5px 10px;
 
-  background-color: var(--brown);
-
   color: var(--white);
   text-transform: uppercase;
+
+  background-color: var(--brown);
 }
 
 .color-primary {
@@ -142,10 +142,6 @@ h4 {
 
   width: auto;
   height: 525px;
-}
-
-.hero p {
-  margin-top: 0;
 }
 
 .hero p:first-of-type {
@@ -183,22 +179,22 @@ h4 {
 
 .video {
   position: absolute;
-  left: 50%;
   bottom: -100px;
+  left: 50%;
   z-index: 10;
 
   transform: translateX(-50%);
 
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
 .navigation {
   padding-top: 200px;
   padding-bottom: 80px;
 
-  background-color: var(--dark);
-
   color: var(--white);
+
+  background-color: var(--dark);
 }
 
 .flex {
@@ -233,16 +229,16 @@ h4 {
   box-sizing: border-box;
   padding: 24px;
 
-  background-color: var(--white);
-
   color: var(--dark);
   text-decoration: none;
+
+  background-color: var(--white);
 }
 
 .navigation-link:hover {
-  background-color: var(--primary);
-
   color: var(--white);
+
+  background-color: var(--primary);
 }
 
 .navigation-link:hover .color-primary {
@@ -258,8 +254,8 @@ h4 {
 }
 
 .breadcrumb {
+  color: var(--dark-semitransparent);
   font-size: 24px;
   font-family: Neucha, cursive;
-  color: var(--dark-semitransparent);
   text-decoration: none;
 }
