@@ -199,6 +199,16 @@ h3 {
   text-decoration: none;
 }
 
+.navigation-link:hover {
+  background-color: var(--primary);
+
+  color: var(--white);
+}
+
+.navigation-link:hover .color-primary {
+  color: var(--white);
+}
+
 .navigation-number {
   margin-bottom: 40px;
 
