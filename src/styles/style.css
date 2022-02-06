@@ -93,6 +93,8 @@ h4 {
   z-index: 0;
 
   padding: 100px 0;
+
+  background-color: var(--light);
 }
 
 .section::before {
@@ -150,7 +152,8 @@ h4 {
 }
 
 main .section:nth-child(1)::before,
-main .section:nth-child(2)::before {
+main .section:nth-child(2)::before,
+footer.section::before {
   display: none;
 }
 
@@ -303,4 +306,98 @@ main .section:nth-child(2)::before {
   font-size: 64px;
   font-family: Neucha, cursive;
   line-height: 1em;
+}
+
+footer.section {
+  background-color: var(--white);
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 38px 55px 40px;
+
+  color: var(--white);
+
+  background-color: var(--dark);
+}
+
+.subscribe h2 {
+  margin-bottom: 0;
+
+  font-size: 34px;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 485px;
+}
+
+.subscribe-label {
+  width: 100%;
+  margin-bottom: 9px;
+
+  font-size: 18px;
+}
+
+.subscribe-input {
+  flex-basis: 415px;
+  box-sizing: border-box;
+  height: 50px;
+  padding: 15px;
+}
+
+.subscribe-button {
+  position: relative;
+
+  box-sizing: border-box;
+  width: 70px;
+  height: 50px;
+
+  font-size: 0;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+.subscribe-button::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 20px;
+  height: 20px;
+
+  background-image: url("../images/send.svg");
+  background-size: cover;
+
+  transform: translate(-50%, -50%);
+
+  content: "";
+}
+
+.subscribe-text {
+  width: 100%;
+  margin: 0;
+
+  font-size: 12px;
+}
+
+.subscribe-form a {
+  color: var(--white);
+}
+
+.contacts {
+  margin-top: 60px;
+
+  font-size: 14px;
+  text-align: center;
+}
+
+.contacts a {
+  color: var(--blue);
 }

@@ -14,7 +14,7 @@
   <header class="section hero">
     <div class="container cols-2">
       <h1><span class="color-primary">Когнитивные<br> искажения</span><br> <span class="lh-1">в программировании</span></h1>
-      <img src="images/main.png" width="1155" height="560" alt="Тото за ноутбуком">
+      <img src="images/main.png" width="1155" height="560" alt="Когнитивные искажения">
       <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
       <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
       <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
@@ -141,17 +141,19 @@
   <footer class="section">
     <div class="container">
       <div class="subscribe">
-        <h3>Хотите узнать больше? Подпишитесь на обновления</h3>
-        <form action="#">
-          <label for="subscribe-email">Электронная почта</label>
-          <input type="email" name="email" id="subscribe-email">
-          <button type="submit">Подписаться</button>
+        <h2>Хотите узнать больше?<br> Подпишитесь на обновления</h2>
+        <form class="subscribe-form" action="#">
+          <label class="subscribe-label" for="subscribe-email">Электронная почта</label>
+          <input class="subscribe-input" type="email" name="email" id="subscribe-email" placeholder="Ваша электронная почта">
+          <button class="button subscribe-button" type="submit">Подписаться</button>
+          <p class="subscribe-text">Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
         </form>
-        <p>Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
       </div>
-      <p>&copy; 2020 Константин Константинопольский</p>
-      <p>По материалам статьи <a href="#">Yash Ranadive Cognitive Biases in Programming</a></p>
-      <a href="#">Курсы программирования Hexlet</a>
+      <div class="contacts">
+        <p>&copy; 2022 Илья С.</p>
+        <p>По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" target="_blank">Yash Ranadive Cognitive Biases in Programming</a></p>
+        <a href="https://ru.hexlet.io/" target="_blank">Курсы программирования Hexlet</a>
+      </div>
     </div>
   </footer>
 </body>
