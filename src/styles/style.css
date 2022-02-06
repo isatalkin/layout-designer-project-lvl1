@@ -49,6 +49,8 @@ h4 {
 }
 
 .container {
+  position: relative;
+
   max-width: 1110px;
   margin: 0 auto;
 }
@@ -182,14 +184,14 @@ footer.section::before {
 }
 
 .hero h1 {
-  margin-bottom: 185px;
+  margin-bottom: 200px;
 
   column-span: all;
 }
 
 .hero img {
   position: absolute;
-  top: 55px;
+  top: -45px;
   right: -270px;
   z-index: -1;
 
@@ -198,6 +200,10 @@ footer.section::before {
 }
 
 .hero p:first-of-type {
+  margin-bottom: 60px;
+}
+
+.hero p:last-of-type {
   margin-bottom: 35px;
 }
 
@@ -234,7 +240,7 @@ footer.section::before {
 
 .video {
   position: absolute;
-  bottom: -100px;
+  bottom: -600px;
   left: 50%;
   z-index: 10;
 
