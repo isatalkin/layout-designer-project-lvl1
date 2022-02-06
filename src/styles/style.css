@@ -131,8 +131,8 @@ h4 {
 
 .section-header p {
   font-size: 34px;
-  line-height: 1.2em;
   font-family: Neucha, cursive;
+  line-height: 1.2em;
 }
 
 .section-hr {
@@ -141,6 +141,7 @@ h4 {
   padding: 5px 10px;
 
   color: var(--white);
+  font-weight: bold;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
